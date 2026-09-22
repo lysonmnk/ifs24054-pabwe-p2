@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengapa chatbot gagal jika FAQ tidak pernah diaudit — Aether Intelligence</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2 fw-semibold" href="index.html">
+            <img src="assets/img/logo.svg" alt="Logo Aether Intelligence" width="32" height="32" />
+            Aether Intelligence
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navDetail"
+            aria-controls="navDetail"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navDetail">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Landing</a></li>
+              <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="py-5">
+      <article class="container" style="max-width: 860px">
+        <img
+          src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=80"
+          class="img-fluid rounded-4 mb-4"
+          alt="Cover artikel chatbot enterprise"
+        />
+
+        <p class="mb-2">
+          <span class="badge text-bg-info"><i class="bi bi-chat-dots"></i> Chatbot</span>
+        </p>
+        <p class="text-secondary">
+          <i class="bi bi-person"></i> Tim Aether
+          <span class="mx-2">·</span>
+          <i class="bi bi-calendar"></i> 12 September 2026
+          <span class="mx-2">·</span>
+          <i class="bi bi-clock"></i> 6 menit baca
+        </p>
+
+        <h1 class="mb-4">Mengapa chatbot gagal jika FAQ tidak pernah diaudit</h1>
+
+        <p>
+          Banyak perusahaan memasang asisten percakapan karena ingin menurunkan antrian tiket.
+          Setelah dua minggu, bot justru menambah kerja agen: jawaban tidak lengkap, kebijakan
+          lama masih dikutip, dan pelanggan mengulang pertanyaan yang sama. Di Aether Intelligence,
+          kami melihat pola ini hampir selalu berawal dari knowledge base yang tidak pernah
+          dibersihkan.
+        </p>
+        <p>
+          FAQ internal biasanya tumbuh dari email, SOP PDF, dan catatan shift. Duplikasi judul,
+          angka yang sudah kadaluarsa, dan pengecualian yang hanya diketahui supervisor membuat
+          retrieval bingung. Model bahasa kemudian merangkai jawaban yang terdengar yakin, tetapi
+          sumbernya campur aduk. Audit singkat—pemilik dokumen, tanggal tinjauan, dan status
+          “masih berlaku”—lebih berdampak daripada mengganti model setiap kuartal.
+        </p>
+        <p>
+          Setelah sumber rapi, barulah saluran (WhatsApp, web, email) dan eskalasi ke manusia
+          dirancang. Bot wajib menyatakan ketidakpastian, menautkan kebijakan, dan menyerahkan
+          percakapan saat niat pelanggan menyentuh keluhan hukum atau refund besar. Tanpa itu,
+          otomasi hanya memindahkan antrean dari inbox ke ruang komplain.
+        </p>
+
+        <blockquote class="blockquote border-start border-info ps-3 my-4">
+          <p>Chatbot yang baik adalah antarmuka ke dokumen yang terawat, bukan pengganti tim kebijakan.</p>
+        </blockquote>
+
+        <div class="alert alert-info" role="alert">
+          <i class="bi bi-lightbulb"></i>
+          Tip: tetapkan pemilik FAQ per unit bisnis dan tinjau setiap 30 hari sebelum musim kampanye.
+        </div>
+
+        <h2 class="h4 mt-4">Checklist sebelum go-live</h2>
+        <ul>
+          <li>Hapus artikel duplikat dan tandai dokumen yang sudah kedaluwarsa.</li>
+          <li>Petakan 20 intent tiket tertinggi ke sumber resmi.</li>
+          <li>Uji eskalasi: bot harus mundur pada topik sensitif.</li>
+        </ul>
+
+        <section class="mt-5">
+          <h2 class="h5">Tinggalkan catatan</h2>
+          <form>
+            <div class="d-flex gap-3 align-items-start">
+              <i class="bi bi-person-circle fs-1 text-info" aria-hidden="true"></i>
+              <div class="flex-grow-1">
+                <label class="form-label" for="komentar">Komentar</label>
+                <textarea class="form-control mb-3" id="komentar" rows="4" placeholder="Pengalaman audit FAQ Anda"></textarea>
+                <button class="btn btn-info text-dark fw-semibold" type="submit">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <footer class="border-top border-secondary py-4 mt-4">
+      <div class="container d-flex flex-wrap justify-content-between gap-2 text-secondary">
+        <span>© 2026 Aether Intelligence</span>
+        <nav>
+          <a class="link-secondary me-3" href="index.html">Landing</a>
+          <a class="link-secondary me-3" href="blog.html">Blog</a>
+          <a class="link-secondary" href="cv.html">CV</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

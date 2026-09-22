@@ -1,9 +1,13 @@
 # Praktikum 2 — PABWE 2026
 
-**Topik:** CSS, Bootstrap 5 & Tailwind CSS 4
+**Topik:** CSS, Bootstrap 5 & Tailwind CSS 4  
 **Tujuan:** Membangun website multi-halaman untuk sebuah **perusahaan jasa AI** (chatbot, otomasi, computer vision, konsultasi data, dsb.), dengan setiap halaman menerapkan pendekatan styling yang berbeda sesuai teknologi yang ditentukan.
 
+**Brand implementasi:** `Aether Intelligence` (logo di `assets/img/logo.svg`).
+
 Bahasa konten: **Bahasa Indonesia** (istilah teknis boleh dalam Bahasa Inggris).
+
+Buka `index.html` di browser, atau jalankan server statis dari folder ini.
 
 ---
 
@@ -147,17 +151,17 @@ Wajib dipenuhi:
 
 ## 10. Checklist Pengerjaan
 
-- [ ] `index.html` — landing page, CSS murni via `assets/css/style.css`, tanpa framework
-- [ ] `blog.html` — daftar minimal 4 artikel AI, Bootstrap 5 + Bootstrap Icons
-- [ ] `blog-detail.html` — detail artikel, minimal 3 paragraf, Bootstrap 5 + Bootstrap Icons
-- [ ] `cv.html` — CV digital, Tailwind CSS 4 sebagai sistem styling utama
-- [ ] Navigasi antar halaman (Landing / Blog / CV) berfungsi di semua file
-- [ ] Judul blog di `blog.html` mengarah ke `blog-detail.html`
-- [ ] Nama brand/logo konsisten di seluruh halaman
-- [ ] Semantic HTML5 digunakan secara konsisten
-- [ ] Komentar singkat pada bagian penting kode
-- [ ] Responsive di desktop dan mobile
-- [ ] Tidak ada pencampuran framework antar halaman (separation of concern)
+- [x] `index.html` — landing page, CSS murni via `assets/css/style.css`, tanpa framework
+- [x] `blog.html` — daftar minimal 4 artikel AI, Bootstrap 5 + Bootstrap Icons
+- [x] `blog-detail.html` — detail artikel, minimal 3 paragraf, Bootstrap 5 + Bootstrap Icons
+- [x] `cv.html` — CV digital, Tailwind CSS 4 sebagai sistem styling utama
+- [x] Navigasi antar halaman (Landing / Blog / CV) berfungsi di semua file
+- [x] Judul blog di `blog.html` mengarah ke `blog-detail.html`
+- [x] Nama brand/logo konsisten di seluruh halaman
+- [x] Semantic HTML5 digunakan secara konsisten
+- [x] Komentar singkat pada bagian penting kode
+- [x] Responsive di desktop dan mobile
+- [x] Tidak ada pencampuran framework antar halaman (separation of concern)
 
 ## 11. Catatan untuk AI Assistant
 
