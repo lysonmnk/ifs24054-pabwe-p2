@@ -196,13 +196,17 @@ h2 {
   padding: 16px;
 }
 
+.stat-list dt,
 .stat-list strong {
   display: block;
   font-size: 1.4rem;
+  font-weight: 700;
   color: var(--accent);
 }
 
+.stat-list dd,
 .stat-list span {
+  margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
 }
